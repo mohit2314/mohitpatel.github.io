@@ -1,0 +1,90 @@
+/*
+  ========================================
+  Custom styles
+  ========================================
+*/
+
+html {
+  font-size: 62.5%;
+}
+
+
+body {
+  font-size: 1.6rem;
+  font-family: "Source Sans Pro", sans-serif;
+  color: #003c5d;
+  background: radial-gradient(ellipse at bottom, #1B2735 0%, #090A0F 100%);
+  background: radial-gradient( #1B2735, #090A0F);
+}
+
+.container {
+  width:100vw;
+  height:100vh;
+  color:#fff;
+  border: 2px solid grey;
+}
+
+
+.container {
+
+  display: table;
+  
+} 
+
+
+.container {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center; 
+}
+
+
+
+.dp {
+   height: 170px;
+   width: 150px;
+ }
+
+ #name {
+   color: honeydew;
+   font-size: xx-large;
+
+ }
+
+ #myinfo {
+   color: grey;
+   display: inline;
+   }
+
+
+/* links */
+a {
+  color: #9acd91;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+.mylink li {
+  display: inline;
+  padding: 5px;
+}
+
+.myLink i{
+  color: #999;
+  cursor: pointer;
+  transform: scale(1);
+  transition: all 0.3s ease-in-out;
+}
+
+.myLink i:hover{
+  color: #9acd91;
+  transform: scale(1.5);
+}
+
+.myLink li.line {
+  border-left: 1px solid #575757;
+  margin-left: 5px;
+  margin-right: -5px;
+}
